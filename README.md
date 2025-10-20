@@ -17,3 +17,5 @@ Or with Maven installed:
 ```bash
 mvn spring-boot:run
 ```
+```Run( gestion des conteneurs Docker )``` pour démarrer les services nécessaires (Kafka, Zookeeper) :
+ docker-compose up -d
