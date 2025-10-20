@@ -1,0 +1,28 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:garage;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+  h2:
+    console:
+      enabled: true
+
+app:
+  kafka:
+    topics:
+      vehicle-created: vehicle-created
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+  api-docs:
+    path: /v3/api-docs
+logging:
+  level:
+    org.springframework.web.bind.MethodArgumentNotValidException: DEBUG
+    org.hibernate.validator: DEBUG
