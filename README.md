@@ -1,4 +1,4 @@
-# Renault Garage (Java 21, Spring Boot 3, H2, Kafka, Swagger, DDD + hexagonal )
+# Renault Garage (Java 21, Spring Boot 3, H2, Kafka,Docker compose Swagger, DDD + hexagonal )
 
 - **Packages**: base `fr.renault`
 - **DDD layers**:
